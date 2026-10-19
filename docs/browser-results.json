@@ -1,0 +1,25 @@
+{
+  "desktop": {
+    "height": 7877,
+    "brokenImages": [],
+    "menuVisible": false
+  },
+  "mobile": {
+    "height": 7747,
+    "brokenImages": [],
+    "menuVisible": true
+  },
+  "consultation": {
+    "reviewVisible": true,
+    "message": "Halo SAYA Wedding Organizer, saya ingin konsultasi mengenai rencana pernikahan. Boleh dibantu informasi layanan dan ketersediaan tanggal?\nTanggal rencana: 2027-10-19\nLokasi rencana: A & B + Jakarta",
+    "target": "/6281234567890",
+    "reviewInvalidated": true
+  },
+  "cursorFailureUsesNative": true,
+  "zoom200NoOverflow": true,
+  "localLab": {
+    "lcp": 860,
+    "cls": 0.04992150858637583,
+    "transferredBytes": 660319
+  }
+}

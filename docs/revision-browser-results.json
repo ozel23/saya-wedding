@@ -1,0 +1,86 @@
+{
+  "sizes": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "navWeight": "800",
+      "navFamily": "Nunito, sans-serif",
+      "headerHeight": 65,
+      "stories": 3,
+      "removed": 0
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "navWeight": "800",
+      "navFamily": "Nunito, sans-serif",
+      "headerHeight": 65,
+      "stories": 3,
+      "removed": 0
+    },
+    {
+      "width": 640,
+      "scrollWidth": 640,
+      "navWeight": "800",
+      "navFamily": "Nunito, sans-serif",
+      "headerHeight": 65,
+      "stories": 3,
+      "removed": 0
+    },
+    {
+      "width": 758,
+      "scrollWidth": 758,
+      "navWeight": "800",
+      "navFamily": "Nunito, sans-serif",
+      "headerHeight": 66,
+      "stories": 3,
+      "removed": 0
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "navWeight": "800",
+      "navFamily": "Nunito, sans-serif",
+      "headerHeight": 66,
+      "stories": 3,
+      "removed": 0
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "navWeight": "800",
+      "navFamily": "Nunito, sans-serif",
+      "headerHeight": 66,
+      "stories": 3,
+      "removed": 0
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "navWeight": "800",
+      "navFamily": "Nunito, sans-serif",
+      "headerHeight": 66,
+      "stories": 3,
+      "removed": 0
+    }
+  ],
+  "errors": [],
+  "autoSlide": "1",
+  "manualSlide": "2",
+  "pausePressed": "true",
+  "photoDialogOpen": true,
+  "photoDialogClosed": true,
+  "photoFocusRestored": true,
+  "contactDialogOpen": true,
+  "serviceOpened": true,
+  "reducedMotion": {
+    "active": "0",
+    "autoControlHidden": true,
+    "motionClass": false
+  },
+  "noJs": {
+    "navigation": true,
+    "poster": true,
+    "heading": true
+  }
+}

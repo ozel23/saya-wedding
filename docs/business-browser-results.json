@@ -1,0 +1,71 @@
+{
+  "errors": [],
+  "sizes": [
+    {
+      "width": 320,
+      "scrollWidth": 320
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "width": 758,
+      "scrollWidth": 758
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920
+    }
+  ],
+  "links": [
+    {
+      "location": "header",
+      "href": "https://wa.me/628153000713?text=Halo%20SAYA%20Wedding%20Organizer%2C%20saya%20ingin%20konsultasi%20mengenai%20rencana%20pernikahan.%20Boleh%20dibantu%20informasi%20layanan%20dan%20ketersediaan%20tanggal%3F"
+    },
+    {
+      "location": "service-planning",
+      "href": "https://wa.me/628153000713?text=Halo%20SAYA%20Wedding%20Organizer%2C%20saya%20ingin%20konsultasi%20mengenai%20rencana%20pernikahan.%20Boleh%20dibantu%20informasi%20layanan%20dan%20ketersediaan%20tanggal%3F%0ALayanan%20yang%20ingin%20didiskusikan%3A%20Wedding%20Planning"
+    },
+    {
+      "location": "service-coordination",
+      "href": "https://wa.me/628153000713?text=Halo%20SAYA%20Wedding%20Organizer%2C%20saya%20ingin%20konsultasi%20mengenai%20rencana%20pernikahan.%20Boleh%20dibantu%20informasi%20layanan%20dan%20ketersediaan%20tanggal%3F%0ALayanan%20yang%20ingin%20didiskusikan%3A%20Wedding%20Coordination"
+    },
+    {
+      "location": "service-intimate",
+      "href": "https://wa.me/628153000713?text=Halo%20SAYA%20Wedding%20Organizer%2C%20saya%20ingin%20konsultasi%20mengenai%20rencana%20pernikahan.%20Boleh%20dibantu%20informasi%20layanan%20dan%20ketersediaan%20tanggal%3F%0ALayanan%20yang%20ingin%20didiskusikan%3A%20Intimate%20Celebration"
+    },
+    {
+      "location": "closing",
+      "href": "https://wa.me/628153000713?text=Halo%20SAYA%20Wedding%20Organizer%2C%20saya%20ingin%20konsultasi%20mengenai%20rencana%20pernikahan.%20Boleh%20dibantu%20informasi%20layanan%20dan%20ketersediaan%20tanggal%3F"
+    },
+    {
+      "location": "footer",
+      "href": "https://wa.me/628153000713?text=Halo%20SAYA%20Wedding%20Organizer%2C%20saya%20ingin%20konsultasi%20mengenai%20rencana%20pernikahan.%20Boleh%20dibantu%20informasi%20layanan%20dan%20ketersediaan%20tanggal%3F"
+    }
+  ],
+  "instagram": "https://www.instagram.com/saya.wedding/",
+  "removed": 0,
+  "slideshow": {
+    "start": "1 dari 3",
+    "after3s": "2 dari 3",
+    "after6s": "2 dari 3",
+    "interval": "3000"
+  },
+  "keyboardPause": true,
+  "stationaryMotion": {
+    "transformA": "matrix(1, 0, 0, 1, -49.5629, 0)",
+    "transformB": "matrix(1, 0, 0, 1, -28.7353, 0)",
+    "changed": true,
+    "scrollStayed": true
+  },
+  "reducedMotion": {
+    "slide": "1 dari 3",
+    "motionEnabled": false
+  },
+  "noJsContact": "https://wa.me/628153000713?text=Halo%20SAYA%20Wedding%20Organizer%2C%20saya%20ingin%20konsultasi%20mengenai%20rencana%20pernikahan.%20Boleh%20dibantu%20informasi%20layanan%20dan%20ketersediaan%20tanggal%3F"
+}

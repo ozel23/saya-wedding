@@ -13,6 +13,7 @@
     <meta property="og:type" content="website">
     <link rel="icon" type="image/png" href="{{ asset('brand/bee.png') }}">
     <link rel="preload" href="{{ asset('fonts/archivo.ttf') }}" as="font" type="font/ttf" crossorigin>
+    @stack('head')
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>

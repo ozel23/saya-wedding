@@ -1,3 +1,17 @@
+# Revisi beranda dan tipografi — 20 Oktober 2026
+
+- `/` dan `#beranda`: diuji setelah scroll 650 px lalu reload. Keduanya kembali ke scrollY=0 dengan masthead lengkap. Klik logo dari footer juga kembali ke atas. Tautan `#tentang` tetap menuju bagian yang benar.
+- Masthead tampil sejak awal dengan entrance ringan per huruf. Heading editorial memakai reveal per kata, paragraf masuk tanpa blur. Gerak pink dipercepat menjadi 4,2 detik (bersama) dan 4,8 detik (cerita), tetap bergerak saat scroll diam.
+- Foto pembuka slideshow diubah ke foto dansa pada contoh beranda. Interval foto tetap 3 detik.
+- Caption di bawah foto layanan, empat angka proses dan tautan Privasi footer dihapus sesuai komentar. Halaman privasi tetap tersedia pada route yang sama. Copyright memakai Nunito 750, 14 px desktop / 13 px mobile.
+- Chrome: tidak ada error JavaScript/404. Tidak ada overflow pada 320, 390, 640, 758, 1024, 1440, 1920 px. Reduced motion menampilkan semua kata tanpa transform; heading tetap terlihat tanpa JavaScript.
+- Build Vite, Pint, Blade cache dan 10 tes PHP (43 assertions) lulus.
+- Hasil: `docs/oct20-browser-results.json`; screenshot `docs/screenshots/oct20-*`.
+
+---
+
+## Catatan revisi sebelumnya
+
 # Revisi kontak dan motion — 19 Oktober 2026
 
 - Nomor bisnis pengguna 628153000713 diterapkan pada environment lokal dan contoh. Enam tautan aktif (header, tiga layanan, penutup, footer) diverifikasi menuju nomor yang sama; tidak ada pesan dikirim.

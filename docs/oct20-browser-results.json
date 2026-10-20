@@ -1,0 +1,83 @@
+{
+  "errors": [],
+  "sizes": [
+    {
+      "width": 320,
+      "body": 320,
+      "scroll": 0
+    },
+    {
+      "width": 390,
+      "body": 390,
+      "scroll": 0
+    },
+    {
+      "width": 640,
+      "body": 640,
+      "scroll": 0
+    },
+    {
+      "width": 758,
+      "body": 758,
+      "scroll": 0
+    },
+    {
+      "width": 1024,
+      "body": 1024,
+      "scroll": 0
+    },
+    {
+      "width": 1440,
+      "body": 1440,
+      "scroll": 0
+    },
+    {
+      "width": 1920,
+      "body": 1920,
+      "scroll": 0
+    }
+  ],
+  "entry": [
+    {
+      "hash": "",
+      "scroll": 0,
+      "mastheadTop": 66,
+      "titleTop": 78,
+      "titleHeight": 279.09375,
+      "letterTransform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "hash": "#beranda",
+      "scroll": 0,
+      "mastheadTop": 66,
+      "titleTop": 78,
+      "titleHeight": 279.09375,
+      "letterTransform": "matrix(1, 0, 0, 1, 0, 0)"
+    }
+  ],
+  "deepLink": {
+    "hash": "#tentang",
+    "scroll": 821,
+    "sectionTop": 79.78125
+  },
+  "removed": 0,
+  "fasterMotion": {
+    "transform": "matrix(1, 0, 0, 1, 4.37197, 0)",
+    "duration": "4.2s",
+    "changedWhileStill": true
+  },
+  "footerFont": {
+    "font": "Nunito, sans-serif",
+    "weight": "750",
+    "size": "14px"
+  },
+  "homeLink": {
+    "hash": "#beranda",
+    "scroll": 0
+  },
+  "reducedMotion": {
+    "opacity": "1",
+    "transform": "none"
+  },
+  "noJsHeading": true
+}

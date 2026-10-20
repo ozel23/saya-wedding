@@ -39,9 +39,9 @@ return [
         'inspiration' => ['RUANG UNTUK', 'CERITA ANDA.'],
     ],
     'media' => [
-        'poster' => $ceremony['src'],
+        'poster' => $dance['src'],
         'interval' => 3000,
-        'slides' => [$ceremony, $dance, $celebration],
+        'slides' => [$dance, $ceremony, $celebration],
         'video' => null,
         'approved' => false,
     ],

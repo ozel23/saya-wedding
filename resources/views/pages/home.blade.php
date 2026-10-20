@@ -1,4 +1,25 @@
 @extends('layouts.app')
+@push('head')
+<script>
+(() => {
+    if (location.hash && location.hash !== '#beranda') return;
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    let interacted = false;
+    const markInteraction = () => { interacted = true; };
+    ['wheel', 'touchstart', 'pointerdown', 'keydown'].forEach(type => {
+        window.addEventListener(type, markInteraction, { once: true, passive: true });
+    });
+    const showMasthead = () => {
+        if (!interacted && (!location.hash || location.hash === '#beranda')) {
+            window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+        }
+    };
+    showMasthead();
+    document.addEventListener('DOMContentLoaded', showMasthead, { once: true });
+    window.addEventListener('pageshow', showMasthead, { once: true });
+})();
+</script>
+@endpush
 @section('content')
 <header class="site-header">
     <a class="nav-brand" href="#beranda" aria-label="SAYA — Beranda">
@@ -77,7 +98,7 @@
             <h2 data-line-reveal><span class="reveal-line"><span class="reveal-ink">Anda punya cerita.</span></span><span class="reveal-line"><span class="reveal-ink" style="--line: 1"><em>Kita rangkai bersama.</em></span></span></h2>
         </div>
         <div class="service-editorial">
-            <figure class="service-portrait" data-reveal><x-wedding.photo :photo="$wedding['service_photo']" sizes="(max-width: 700px) 100vw, 45vw" /><figcaption>A LITTLE CARE. A BEAUTIFUL CELEBRATION.</figcaption></figure>
+            <figure class="service-portrait" data-reveal><x-wedding.photo :photo="$wedding['service_photo']" sizes="(max-width: 700px) 100vw, 45vw" /></figure>
             <div class="service-options">
                 <p class="service-intro" data-reveal>Mulai dari gambaran besar hingga detail kecil. Temukan bentuk pendampingan yang terasa pas untuk hari Anda.</p>
                 @forelse($services as $service)
@@ -93,8 +114,8 @@
     </section>
 
     <section class="process dark section-pad" id="proses">
-        <div class="process-heading"><span class="eyebrow">DARI RENCANA MENJADI PERAYAAN</span><h2 data-reveal>SATU LANGKAH.<br><em>Satu cerita bersama.</em></h2></div>
-        <div class="steps">@foreach($wedding['process'] as $step)<article data-reveal><span class="step-number">0{{ $loop->iteration }}</span><h3>{{ $step['title'] }}</h3><p>{{ $step['description'] }}</p></article>@endforeach</div>
+        <div class="process-heading"><span class="eyebrow">DARI RENCANA MENJADI PERAYAAN</span><h2 data-line-reveal>SATU LANGKAH.<br><em>Satu cerita bersama.</em></h2></div>
+        <div class="steps">@foreach($wedding['process'] as $step)<article data-reveal><h3>{{ $step['title'] }}</h3><p>{{ $step['description'] }}</p></article>@endforeach</div>
     </section>
 
     <section class="faq section-pad" id="faq">
@@ -123,7 +144,7 @@
         </div>
         <div class="footer-signoff">@if($wedding['area'])<p>{{ $wedding['area'] }}</p>@endif<span class="footer-signature">with love, SAYA.</span></div>
     </div>
-    <div class="footer-bottom"><span>© {{ date('Y') }} {{ $wedding['name'] }}</span><a href="{{ route('privacy') }}">Privasi</a></div>
+    <div class="footer-bottom"><span class="copyright">© {{ date('Y') }} <span>{{ $wedding['name'] }}</span></span></div>
 </footer>
 
 @unless($whatsapp)

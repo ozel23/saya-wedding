@@ -7,8 +7,8 @@ Foto dipilih dari folder `assets/` yang disediakan pengguna. Source tidak ditimp
 | photo-1 | a90e10cb8ab3c0b8531693a6655c48aa.jpg | Garden Celebration; lebar maksimum 736 px |
 | photo-2 | igexport-DQTXTM7kf0q.jpg | Slideshow hero; maksimum 1440 px |
 | photo-3 | images (1).jpeg | Turunan tersedia, belum dipakai |
-| photo-4 | snapgram.io_download-file-fdn8o436.jpg | Foto utama hero |
-| photo-5 | snapgram.io_download-file-kdaqkyto.jpg | Slideshow hero |
+| photo-4 | snapgram.io_download-file-fdn8o436.jpg | Slideshow hero |
+| photo-5 | snapgram.io_download-file-kdaqkyto.jpg | Foto pembuka hero, sesuai referensi beranda terbaru |
 | photo-6 | snapgram.io_download-file-lru82on9.jpg | Intimate Gathering |
 | photo-7 | snapgram.io_download-file-q4w7uq40.jpg | Elegant Reception |
 | photo-8 | snapgram.io_download-file-yel3p4wh.jpg | Bagian layanan |

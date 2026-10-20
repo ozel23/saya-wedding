@@ -23,7 +23,7 @@ Buka http://127.0.0.1:8000. Jangan menimpa `.env` yang sudah dikonfigurasi. Untu
 
 Slideshow berganti otomatis setiap 3 detik dengan transisi opacity/posisi. Kontrol visual telah dihapus; swipe dan tombol panah keyboard tetap bekerja. Spasi menjeda/melanjutkan, Escape menjeda. Otomatis berhenti saat di luar viewport atau tab tersembunyi. Reduced motion/Save-Data menonaktifkan pergantian otomatis. Foto pertama tetap tampil tanpa JavaScript. Indeks foto dan tombol “Lihat lebih dekat” telah dihapus dari inspirasi.
 
-Masthead memakai entrance per huruf dan sedikit gerak dekoratif. Heading tentang memakai reveal per baris. Script pink bergerak sendiri secara horizontal tanpa perlu scroll dan berhenti saat keluar viewport. Semua teks mendapat animasi masuk; judul penutup memiliki reveal per baris serta gerakan script lembut. Semua motion mengikuti reduced motion dan memiliki fallback konten terlihat tanpa JS.
+Beranda `/` dan `#beranda` dimulai dari masthead saat dibuka atau dimuat ulang; tautan bagian lain tetap dapat dituju langsung. Masthead memakai entrance per huruf yang langsung terlihat, dan heading editorial memakai reveal per kata. Script pink bergerak sendiri lebih cepat (4,2 detik untuk bersama dan 4,8 detik untuk cerita), tanpa perlu scroll, dan berhenti saat keluar viewport. Semua teks mendapat animasi masuk; judul penutup memiliki reveal per baris serta gerakan script lembut. Semua motion mengikuti reduced motion dan memiliki fallback konten terlihat tanpa JS.
 
 Font Nunito, Archivo Black, Bodoni Moda, Manrope dan Pinyon Script disajikan secara lokal dengan lisensi SIL OFL di `public/fonts/`.
 

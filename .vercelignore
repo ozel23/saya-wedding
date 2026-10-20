@@ -8,4 +8,6 @@
 /bootstrap/cache/*.php
 /public/hot
 /public/build
+/public/index.php
+/public/.htaccess
 /.git

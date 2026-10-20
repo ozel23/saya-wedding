@@ -19,6 +19,8 @@
 /storage/*.key
 /storage/pail
 /vendor
+/.vercel
 Homestead.json
 Homestead.yaml
 Thumbs.db
+.env.local

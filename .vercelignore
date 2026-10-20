@@ -1,0 +1,11 @@
+/.env*
+/vendor
+/node_modules
+/assets
+/docs
+/tests
+/storage
+/bootstrap/cache/*.php
+/public/hot
+/public/build
+/.git

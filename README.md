@@ -55,6 +55,10 @@ Lihat `docs/business-browser-results.json` untuk revisi kontak/motion terbaru, a
 
 ## Deployment
 
+Proyek pengujian Vercel terhubung ke `ozel23/saya-wedding`, branch `main`; setiap push memicu deployment otomatis. `vercel.json` memakai runtime komunitas `vercel-php@0.6.2` (PHP 8.2), build Vite dan aset statis dari `public/`. Request halaman masuk melalui `api/index.php`, dengan storage/cache sementara di `/tmp` dan log ke stderr. `.vercelignore` mengecualikan `.env`, source media, dokumen, vendor lokal, serta front controller PHP dari output statis. `APP_KEY` disimpan sebagai secret di Vercel, bukan di repository.
+
+URL pengujian: https://saya-wedding.vercel.app/. Seluruh URL deployment dilindungi login Vercel sesuai pilihan pemilik. `WEDDING_PREVIEW=true` dan noindex tetap aktif untuk pengujian; konfigurasi kontak bisnis ada di `vercel.json`.
+
 Gunakan hosting PHP/Laravel, document root `public/`, HTTPS, izin tulis `storage/` dan `bootstrap/cache/`. Set `APP_ENV=production`, `APP_DEBUG=false`, `APP_URL` domain HTTPS yang benar. Isi kontak, konfirmasi layanan/area/media lalu set `WEDDING_PREVIEW=false`.
 
 ```sh

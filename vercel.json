@@ -19,6 +19,7 @@
         "APP_NAME": "SAYA Wedding Organizer",
         "APP_ENV": "production",
         "APP_DEBUG": "false",
+        "VERCEL_PHP_DOCROOT": "public",
         "APP_CONFIG_CACHE": "/tmp/saya-config.php",
         "APP_EVENTS_CACHE": "/tmp/saya-events.php",
         "APP_PACKAGES_CACHE": "/tmp/saya-packages.php",
